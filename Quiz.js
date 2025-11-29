@@ -31,6 +31,12 @@ while (questoes == "1") {
         else {
             console.log("Alternativa incorreta, tente novamente na próxima.")
         }
-
+        var q5 = prompt("5) O que é um sistema operacional (SO) ? \nA) Um conjunto de programas responsável por gerenciar os recursos do computador e permitir a interação entre o usuário e o hardware. \nB) Um programa usado apenas para editar textos e criar documentos. \nC) Um tipo de hardware que acelera o processamento de dados. \nD) Um dispositivo externo utilizado para armazenar arquivos. \n ")
+        if (q5.toUpperCase() === "A") {
+            console.log("Parabéns, você acertou")
+        }
+        else {
+            console.log("Alternativa incorreta, tente novamente na próxima.")
+        }
 
 }
