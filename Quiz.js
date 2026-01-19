@@ -1,6 +1,6 @@
 let questoes = prompt("Digite o número 1 para iniciar: ")
 
-while (questoes == "1") {
+while (questoes === "1") {
 
         var q1 = prompt("1) Em quantos dias a linguagem java Script foi criada ? \nA) 10 dias. \nB) 20 dias. \nC) 35 dias. \nD) 50 dias. \n")
         if (q1.toUpperCase() ==="A"){
@@ -40,4 +40,3 @@ while (questoes == "1") {
         }
 
 }
-
